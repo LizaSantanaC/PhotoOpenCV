@@ -1,0 +1,7 @@
+Executable : /home/liza/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/liza/DemoPhotoShop (copy)/PhotoShop/.cxx/cmake/debug/armeabi-v7a
+dummy-lib
+jvmArgs : 
+

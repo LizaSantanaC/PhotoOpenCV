@@ -1,0 +1,2 @@
+ninja: Entering directory `/home/liza/DemoPhotoShop (copy)/PhotoShop/.cxx/cmake/debug/x86'
+ninja: no work to do.

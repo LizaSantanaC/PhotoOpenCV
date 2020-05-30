@@ -1,0 +1,42 @@
+{
+  "stringTable": {
+    "0": "/home/liza/DemoPhotoShop (copy)/PhotoShop/.cxx/cmake/debug/x86_64",
+    "1": "--target=x86_64-none-linux-android21 --gcc-toolchain=/home/liza/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/liza/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Ddummy_lib_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/home/liza/Android/Sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake",
+    "/home/liza/Android/Sdk/ndk/20.0.5594570/build/cmake/platforms.cmake",
+    "/home/liza/DemoPhotoShop (copy)/PhotoShop/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/liza/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/liza/DemoPhotoShop (copy)/PhotoShop/.cxx/cmake/debug/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/home/liza/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/liza/DemoPhotoShop (copy)/PhotoShop/.cxx/cmake/debug/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "dummy-lib-Debug-x86_64": {
+      "buildCommand": "/home/liza/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/liza/DemoPhotoShop (copy)/PhotoShop/.cxx/cmake/debug/x86_64\" dummy-lib",
+      "buildType": "debug",
+      "toolchain": "2382323126",
+      "abi": "x86_64",
+      "artifactName": "dummy-lib",
+      "files": [
+        {
+          "src": "/home/liza/DemoPhotoShop (copy)/PhotoShop/src/main/cpp/dummy-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/liza/DemoPhotoShop (copy)/PhotoShop/build/intermediates/cmake/debug/obj/x86_64/libdummy-lib.so"
+    }
+  },
+  "toolchains": {
+    "2382323126": {
+      "cppCompilerExecutable": "/home/liza/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "/home/liza/Android/Sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake",
+    "/home/liza/Android/Sdk/ndk/20.0.5594570/build/cmake/platforms.cmake",
+    "/home/liza/DemoPhotoShop (copy)/PhotoShop/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/liza/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/liza/DemoPhotoShop (copy)/PhotoShop/.cxx/cmake/debug/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/home/liza/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/liza/DemoPhotoShop (copy)/PhotoShop/.cxx/cmake/debug/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "dummy-lib-Debug-x86_64": {
+      "artifactName": "dummy-lib",
+      "buildCommand": "/home/liza/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/liza/DemoPhotoShop (copy)/PhotoShop/.cxx/cmake/debug/x86_64\" dummy-lib",
+      "abi": "x86_64",
+      "output": "/home/liza/DemoPhotoShop (copy)/PhotoShop/build/intermediates/cmake/debug/obj/x86_64/libdummy-lib.so"
+    }
+  }
+}
